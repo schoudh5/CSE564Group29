@@ -8,7 +8,7 @@ Following are the Source Code Elements
     a)It contains code for the validator
     b)sample BPEL file i.e Pay.bpel.
     c)input file for the service parameter TextFile.txt.
-2. Serices 
+2. Services 
 ==
     a)Code for the WCF services and the dll used.
     b)Code for the URI that hosting the service.
