@@ -11,7 +11,7 @@ Following are the Source Code Elements
 2. Serices 
 ==
     a)Code for the WCF services and the dll used.
-    b)Code for the URI that host th service.
+    b)Code for the URI that hosting the service.
 3. Database
 ==
     Script of Database used in the execution.
