@@ -14,4 +14,4 @@ Following are the Source Code Elements
     b)Code for the URI that hosting the service.
 3. Database
 ==
-    Script of Database used in the execution.
+    Script of Database used in the execution of the validation engine.
