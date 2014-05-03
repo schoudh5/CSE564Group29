@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyTestingDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="SP_CheckAuthenticateTranscation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="TST">
+    <Parameter Name="authtoken" Type="varchar" Mode="In" />
+    <Parameter Name="cardNumber" Type="varchar" Mode="In" />
+    <Parameter Name="cvv" Type="int" Mode="In" />
+    <Parameter Name="dateOfExpiry" Type="datetime" Mode="In" />
+  </Function>
+  <EntityContainer Name="MyTestingDatabaseModelStoreContainer" />
+</Schema>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyTestingDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SDProject" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="SP_CheckAuthenticateTranscation" ReturnType="Collection(String)">
+      <Parameter Name="authtoken" Mode="In" Type="String" />
+      <Parameter Name="cardNumber" Mode="In" Type="String" />
+      <Parameter Name="cvv" Mode="In" Type="Int32" />
+      <Parameter Name="dateOfExpiry" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginCheckService", "LoginCheckService\LoginCheckService.csproj", "{4E3458D9-F621-4E98-9872-9C9A0E46A8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckCardStatus", "..\CheckCardStatus\CheckCardStatus.csproj", "{D610638F-0968-4405-86A0-46578B4C2F82}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CheckCardServer", "http://localhost:2162", "{C903DFBE-1F50-428A-BD55-FE76A68E4823}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{d610638f-0968-4405-86a0-46578b4c2f82}|CheckCardStatus.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2162"
+		Debug.AspNetCompiler.PhysicalPath = "..\CheckCardServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2162\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2162"
+		Release.AspNetCompiler.PhysicalPath = "..\CheckCardServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2162\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\CheckCardServer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LoginServiceHost", "http://localhost:1423", "{E8F77FD1-315D-47E8-A020-E1AF3123D471}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{4e3458d9-f621-4e98-9872-9c9a0e46a8fc}|LoginCheckService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1423"
+		Debug.AspNetCompiler.PhysicalPath = "..\LoginServiceHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1423\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1423"
+		Release.AspNetCompiler.PhysicalPath = "..\LoginServiceHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1423\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\LoginServiceHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LoginFinal", "http://localhost:2121", "{8DEF6430-88E9-4035-80E2-7E821623D8A1}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2121"
+		Debug.AspNetCompiler.PhysicalPath = "..\LoginFinal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2121\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2121"
+		Release.AspNetCompiler.PhysicalPath = "..\LoginFinal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2121\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\LoginFinal\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{D610638F-0968-4405-86A0-46578B4C2F82} = {D610638F-0968-4405-86A0-46578B4C2F82}
+		{C903DFBE-1F50-428A-BD55-FE76A68E4823} = {C903DFBE-1F50-428A-BD55-FE76A68E4823}
+		{E8F77FD1-315D-47E8-A020-E1AF3123D471} = {E8F77FD1-315D-47E8-A020-E1AF3123D471}
+		{4E3458D9-F621-4E98-9872-9C9A0E46A8FC} = {4E3458D9-F621-4E98-9872-9C9A0E46A8FC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3458D9-F621-4E98-9872-9C9A0E46A8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3458D9-F621-4E98-9872-9C9A0E46A8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3458D9-F621-4E98-9872-9C9A0E46A8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3458D9-F621-4E98-9872-9C9A0E46A8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D610638F-0968-4405-86A0-46578B4C2F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D610638F-0968-4405-86A0-46578B4C2F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D610638F-0968-4405-86A0-46578B4C2F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D610638F-0968-4405-86A0-46578B4C2F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C903DFBE-1F50-428A-BD55-FE76A68E4823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C903DFBE-1F50-428A-BD55-FE76A68E4823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C903DFBE-1F50-428A-BD55-FE76A68E4823}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C903DFBE-1F50-428A-BD55-FE76A68E4823}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8F77FD1-315D-47E8-A020-E1AF3123D471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F77FD1-315D-47E8-A020-E1AF3123D471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F77FD1-315D-47E8-A020-E1AF3123D471}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F77FD1-315D-47E8-A020-E1AF3123D471}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8DEF6430-88E9-4035-80E2-7E821623D8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEF6430-88E9-4035-80E2-7E821623D8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DEF6430-88E9-4035-80E2-7E821623D8A1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DEF6430-88E9-4035-80E2-7E821623D8A1}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

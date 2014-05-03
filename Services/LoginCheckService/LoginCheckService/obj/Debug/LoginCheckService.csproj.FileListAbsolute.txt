@@ -1,0 +1,10 @@
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\LoginCheckService.dll.config
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\LoginCheckService.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\LoginCheckService.pdb
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\EntityFramework.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\EntityFramework.xml
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\obj\Debug\LoginCheckService.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\obj\Debug\LoginCheckService.pdb
+D:\Programs\ASPBACK\ServicePractice\SDProject\LoginCheckService\LoginCheckService\obj\Debug\LoginCheckService.csprojResolveAssemblyReference.cache

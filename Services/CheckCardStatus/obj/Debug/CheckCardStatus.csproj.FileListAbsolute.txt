@@ -1,0 +1,10 @@
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\CheckCardStatus.dll.config
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\CheckCardStatus.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\CheckCardStatus.pdb
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\EntityFramework.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\EntityFramework.xml
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\obj\Debug\CheckCardStatus.dll
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\obj\Debug\CheckCardStatus.pdb
+D:\Programs\ASPBACK\ServicePractice\SDProject\CheckCardStatus\obj\Debug\CheckCardStatus.csprojResolveAssemblyReference.cache
